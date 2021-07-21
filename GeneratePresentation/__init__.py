@@ -170,7 +170,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 generate_presentation_section(prs, bullet_slide_layout, preview_items, "Preview")
                 generate_presentation_section(prs, bullet_slide_layout, ga_items, "GA")
             
-                filename = datetime.strftime(datetime.now(),"%Y-%m-%d-%H-%M-%S") + "-AzureUpdates.pptx"
+                filename = os.environ["LocalTempFilePath"] + datetime.strftime(datetime.now(),"%Y-%m-%d-%H-%M-%S") + "-AzureUpdates.pptx"
 
                 prs.save(filename)
 
