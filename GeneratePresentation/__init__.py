@@ -72,6 +72,8 @@ def generate_presentation_section(presentation, layout, articles, item_type):
     shapes = slide.shapes
 
     slide_item_count = 0
+    total_item_count = 0
+    article_count = len(articles)
     slide_count = 1
 
     for article in articles:
@@ -102,9 +104,11 @@ def generate_presentation_section(presentation, layout, articles, item_type):
             dotpoint.text = "- " + article["link"] + " (" + article["published"] + ")"
         
         slide_item_count += 1
+        total_item_count += 1
 
         # If we hit 5 items on a slide, create a new slide and reset item count
-        if slide_item_count == 5:
+        # If there aren't any items left, don't create a new empty slide
+        if slide_item_count == 5 and total_item_count < article_count:
             slide = presentation.slides.add_slide(layout)
             slide_notes = slide.notes_slide
             shapes = slide.shapes
@@ -116,10 +120,10 @@ def generate_presentation_section(presentation, layout, articles, item_type):
 ###
 def upload_file_to_storage(presenation_file):
 
-    blob = BlobClient.from_connection_string(conn_str=os.environ["PowerPointAccountConnection"], container_name=os.environ["PowerPointContainer"], blob_name=presenation_file)
+    blob_client = BlobClient.from_connection_string(conn_str=os.environ["PowerPointAccountConnection"], container_name=os.environ["PowerPointContainer"], blob_name=presenation_file)
 
     with open(presenation_file, "rb") as data:
-        blob.upload_blob(data)
+        blob_client.upload_blob(data)
 
     # Generate a SAS-protected URL for the item which will allow the caller to download the file for 1 hour.
     startTime = datetime.now(tz=timezone.utc)
@@ -170,7 +174,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 generate_presentation_section(prs, bullet_slide_layout, preview_items, "Preview")
                 generate_presentation_section(prs, bullet_slide_layout, ga_items, "GA")
             
-                filename = os.environ["LocalTempFilePath"] + datetime.strftime(datetime.now(),"%Y-%m-%d-%H-%M-%S") + "-AzureUpdates.pptx"
+                filename = os.environ["LocalTempFilePath"] + "AzureUpdate-" + datetime.strftime(datetime.now(),"%Y-%m-%d-%H-%M-%S") + ".pptx"
 
                 prs.save(filename)
 
