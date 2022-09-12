@@ -40,4 +40,4 @@ jobs:
         app-name: 'azupdates'
         slot-name: 'production'
         package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_494bda5400924ba99a1271810a2ecb6e }}
+        publish-profile: ${{ secrets.APPSERVICE_PROFILE_2022 }}

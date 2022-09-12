@@ -30,7 +30,7 @@ Define the following `local.settings.json` file in order to get the Functions ru
 
 # Deploy to Azure
 
-You will need an Azure Storage Account, Azure Function (Comsumption Plan is perfect). When creating the Function you can elect to create the Application Insights instance to go along with it as well, though this is not strictly required.
+You can deploy the Azure resources by running the bicep file in the infra-deploy folder. You need to supply a unique name for the Azure Function and also the location you wish to deploy the App Insights instance to.
 
 Once you have this setup you can then extract the publishing profile for the Azure Function which can be achieved via either the Azure Portal (open the Function and download the profile by clicking 'Get publish profile' on the Overview screen) or via the Azure CLI by using the [az webapp deployment list-publishing-profiles](https://docs.microsoft.com/en-us/cli/azure/webapp/deployment?view=azure-cli-latest#az_webapp_deployment_list_publishing_profiles) command.
 
