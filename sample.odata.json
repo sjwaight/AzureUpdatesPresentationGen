@@ -1,0 +1,2243 @@
+{
+    "@odata.context": "https://relcomms-prod-dagnegedescbeefs.b02.azurefd.net/api/v2/$metadata#Azure",
+    "value": [
+        {
+            "id": "483803",
+            "productCategories": [
+                "Developer tools",
+                "DevOps"
+            ],
+            "tags": [
+                "Features"
+            ],
+            "products": [
+                "Azure Load Testing"
+            ],
+            "generalAvailabilityDate": "2025-03",
+            "previewAvailabilityDate": null,
+            "privatePreviewAvailabilityDate": null,
+            "title": "Generally Available: Azure Load Testing Now Supports Locust",
+            "description": "\u003Cdiv style=\u0022font-family:Arial\u0022\u003EAzure Load Testing now supports Locust, a Python-based open-source framework for performance testing. You can use your existing Locust scripts with Azure Load Testing to easily generate high-scale load and identify performance bottlenecks.\u0026nbsp;\u003Cspan style=\u0022font-family:\u0026quot;Aptos\u0026quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:Mangal;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\u0022\u003ELocust is a developer\nfriendly framework that lets you write code to create load test scripts as\nopposed to using GUI based test creation.\u0026nbsp;\u003C/span\u003E\u003C/div\u003E\u003Cdiv style=\u0022font-family:Arial\u0022\u003E\u003Cbr\u003E\u003C/div\u003E\u003Cdiv style=\u0022font-family:Arial\u0022\u003E\u003Cspan style=\u0022font-family:\u0026quot;Aptos\u0026quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:Mangal;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\u0022\u003E\u003Ca href=\u0022https://learn.microsoft.com/azure/load-testing/quickstart-create-run-load-test-with-locust?tabs=portal\u0022\u003ELearn more\u003C/a\u003E.\u003C/span\u003E\u003C/div\u003E",
+            "status": "Launched",
+            "created": "2025-03-21T21:45:02.7441087Z",
+            "modified": "2025-03-21T21:45:02.7441087Z",
+            "locale": null,
+            "availabilities": [
+                {
+                    "ring": "General Availability",
+                    "year": 2025,
+                    "month": "March"
+                }
+            ]
+        },
+        {
+            "id": "485666",
+            "productCategories": [
+                "Integration",
+                "Internet of Things",
+                "Mobile",
+                "Web"
+            ],
+            "tags": [
+                "Features",
+                "Services"
+            ],
+            "products": [
+                "API Management"
+            ],
+            "generalAvailabilityDate": null,
+            "previewAvailabilityDate": "2025-03",
+            "privatePreviewAvailabilityDate": null,
+            "title": "Public Preview: Managed Developer Portal in Azure API Center (API Center Portal)",
+            "description": "\u003Cdiv style=\u0022font-family: Arial; font-size: 10pt;\u0022\u003E\u003Cdiv style=\u0022margin: 0px; user-select: text; clear: both; cursor: text; font-family: \u0026quot;Segoe UI\u0026quot;, \u0026quot;Segoe UI Web\u0026quot;, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\u0022\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EHaving a developer portal for your APIs is crucial as it provides a centralized \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Elocation \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Ef\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Eor all API documentation and resources, making it easier for\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Edevelopers to find\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;the information they need\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E. \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EAdditionally, it facilitates better collaboration among teams by offering a shared space for \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EAPI \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Eknowledge and improving transparency.\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u003Cbr\u003E\u003C/span\u003E\u003C/p\u003E\u003C/div\u003E\u003Cdiv style=\u0022margin: 0px; user-select: text; clear: both; cursor: text; font-family: \u0026quot;Segoe UI\u0026quot;, \u0026quot;Segoe UI Web\u0026quot;, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\u0022\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EWe are excited to announce that \u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif;font-weight:bold\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EAzure API Center now offers a managed API Center Portal \u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E- \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Ean API developer portal designed to support and streamline the work of developers who use and create APIs within an organization\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E.\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u003Cbr\u003E\u003C/span\u003E\u003C/p\u003E\u003C/div\u003E\u003Cdiv style=\u0022margin: 0px; user-select: text; clear: both; cursor: text; font-family: \u0026quot;Segoe UI\u0026quot;, \u0026quot;Segoe UI Web\u0026quot;, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\u0022\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EThe \u003C/span\u003E\u003C/span\u003E\u003Ca style=\u0022margin:0px;user-select:text;text-decoration:none\u0022 rel=\u0022noreferrer noopener\u0022 href=\u0022https://aka.ms/apicenter/docs/enable-portal\u0022\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; font-size: 11pt; text-decoration: underline; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-variant-ligatures: none !important; color: rgb(5, 99, 193);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022 data-ccp-charstyle=\u0022Hyperlink\u0022\u003Emanaged API Center portal\u003C/span\u003E\u003C/span\u003E\u003C/a\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;includes:\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003C/div\u003E\u003Cul data-editing-info=\u0022{\u0026quot;orderedStyleType\u0026quot;:1,\u0026quot;unorderedStyleType\u0026quot;:1}\u0022\u003E\u003Cli style=\u0022user-select: text; clear: both; cursor: text; font-size: 11pt; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; list-style-type: disc; color: rgb(0, 0, 0);\u0022 data-aria-level=\u00221\u0022 data-aria-posinset=\u00221\u0022 data-list-defn-props=\u0022{\u0026quot;335552541\u0026quot;:1,\u0026quot;335559685\u0026quot;:720,\u0026quot;335559991\u0026quot;:360,\u0026quot;469769226\u0026quot;:\u0026quot;Symbol\u0026quot;,\u0026quot;469769242\u0026quot;:[8226],\u0026quot;469777803\u0026quot;:\u0026quot;left\u0026quot;,\u0026quot;469777804\u0026quot;:\u0026quot;\uF0B7\u0026quot;,\u0026quot;469777815\u0026quot;:\u0026quot;hybridMultilevel\u0026quot;}\u0022 data-listid=\u00226\u0022 data-font=\u0022Symbol\u0022 data-leveltext=\u0022\uF0B7\u0022\u003E\u003Cp style=\u0022margin: 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EView API details and definitions\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E: This feature allows developers to access comprehensive information about each API, including endpoints, methods, parameters, and response formats. It helps developers understand how to interact with the APIs effectively.\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(0, 0, 0);\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli style=\u0022user-select: text; clear: both; cursor: text; font-size: 11pt; font-family: Calibri, Calibri_MSFontService, sans-serif; list-style-type: disc;\u0022 data-aria-level=\u00221\u0022 data-aria-posinset=\u00222\u0022 data-list-defn-props=\u0022{\u0026quot;335552541\u0026quot;:1,\u0026quot;335559685\u0026quot;:720,\u0026quot;335559991\u0026quot;:360,\u0026quot;469769226\u0026quot;:\u0026quot;Symbol\u0026quot;,\u0026quot;469769242\u0026quot;:[8226],\u0026quot;469777803\u0026quot;:\u0026quot;left\u0026quot;,\u0026quot;469777804\u0026quot;:\u0026quot;\uF0B7\u0026quot;,\u0026quot;469777815\u0026quot;:\u0026quot;hybridMultilevel\u0026quot;}\u0022 data-listid=\u00226\u0022 data-font=\u0022Symbol\u0022 data-leveltext=\u0022\uF0B7\u0022\u003E\u003Cp style=\u0022margin: 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003ECustomize with branding\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E: The portal \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Eallows\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Ecustomers\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;to reflect the organization\u0027s branding. Currently, \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Ein preview \u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EAPI Center portal\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;supports name customization, enabling organizations to personalize the portal with their brand name.\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(0, 0, 0);\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003C/li\u003E\u003Cli style=\u0022user-select: text; clear: both; cursor: text; font-size: 11pt; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; list-style-type: disc; color: rgb(0, 0, 0);\u0022 data-aria-level=\u00221\u0022 data-aria-posinset=\u00223\u0022 data-list-defn-props=\u0022{\u0026quot;335552541\u0026quot;:1,\u0026quot;335559685\u0026quot;:720,\u0026quot;335559991\u0026quot;:360,\u0026quot;469769226\u0026quot;:\u0026quot;Symbol\u0026quot;,\u0026quot;469769242\u0026quot;:[8226],\u0026quot;469777803\u0026quot;:\u0026quot;left\u0026quot;,\u0026quot;469777804\u0026quot;:\u0026quot;\uF0B7\u0026quot;,\u0026quot;469777815\u0026quot;:\u0026quot;hybridMultilevel\u0026quot;}\u0022 data-listid=\u00226\u0022 data-font=\u0022Symbol\u0022 data-leveltext=\u0022\uF0B7\u0022\u003E\u003Cp style=\u0022margin:0px;user-select:text;overflow-wrap:break-word;white-space:pre-wrap;font-weight:normal;font-kerning:none;text-align:left\u0022\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EIntegrate with Microsoft Entra\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-variant-ligatures: none !important; color: rgb(0, 0, 0);\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E: This integration provides seamless authentication and authorization capabilities, leveraging Microsoft Entra\u0027s identity and access management services. It ensures secure access to the APIs and simplifies user management.\u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(0, 0, 0);\u0022 data-ccp-props=\u0022{}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp style=\u0022font-family:Calibri, Calibri_MSFontService, sans-serif;font-size:11pt;margin:0px;user-select:text;overflow-wrap:break-word;white-space:pre-wrap;font-weight:normal;font-kerning:none;text-align:left\u0022\u003E\u003Cspan style=\u0022margin: 0px; user-select: text; line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(0, 0, 0);\u0022 data-ccp-props=\u0022{}\u0022\u003E\u003Cbr\u003E\u003C/span\u003E\u003C/p\u003E\u003Cdiv style=\u0022margin: 0px; user-select: text; clear: both; cursor: text; font-family: \u0026quot;Segoe UI\u0026quot;, \u0026quot;Segoe UI Web\u0026quot;, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\u0022\u003E\u003Cp style=\u0022margin: 12px 0px; user-select: text; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-kerning: none; text-align: left; background-color: rgb(255, 255, 255);\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-variant-ligatures:none !important;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 lang=\u0022EN-US\u0022 data-contrast=\u0022none\u0022\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003EWhile this is a preview release, we are actively working\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;improving the design and capabilities\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text\u0022\u003Eof the API Center Portal. \u003C/span\u003E\u003C/span\u003E\u003Cspan style=\u0022margin:0px;user-select:text;font-size:11pt;line-height:18px;font-family:Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif\u0022 data-ccp-props=\u0022{\u0026quot;335557856\u0026quot;:16777215,\u0026quot;335559738\u0026quot;:180,\u0026quot;335559739\u0026quot;:180}\u0022\u003E\u0026nbsp;\u003C/span\u003E\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E",
+            "status": "In preview",
+            "created": "2025-03-20T19:00:38.7187744Z",
+            "modified": "2025-03-20T19:00:38.7187744Z",
+            "locale": null,
+            "availabilities": [
+                {
+                    "ring": "Preview",
+                    "year": 2025,
+                    "month": "March"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "name": "ProductCategory",
+            "values": [
+                {
+                    "value": "AI \u002B machine learning",
+                    "count": 353,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "AI Anomaly Detector",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure AI Bot Service",
+                                    "count": 13
+                                },
+                                {
+                                    "value": "Azure AI Content Safety",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure AI Custom Vision",
+                                    "count": 11
+                                },
+                                {
+                                    "value": "Azure AI Foundry",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure AI Language",
+                                    "count": 15
+                                },
+                                {
+                                    "value": "Azure AI Personalizer",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure AI Search",
+                                    "count": 38
+                                },
+                                {
+                                    "value": "Azure AI Services",
+                                    "count": 107
+                                },
+                                {
+                                    "value": "Azure AI Translator",
+                                    "count": 12
+                                },
+                                {
+                                    "value": "Azure AI Video Indexer",
+                                    "count": 14
+                                },
+                                {
+                                    "value": "Azure Databricks",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Azure Machine Learning",
+                                    "count": 114
+                                },
+                                {
+                                    "value": "Azure Open Datasets",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure OpenAI Service",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Data Science Virtual Machines",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Health Bot",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Language Understanding (LUIS)",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Microsoft Copilot for Security",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "QnA Maker",
+                                    "count": 3
+                                },
+                                {
+                                    "value": "Speaker recognition",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Speech to text",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Speech translation",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Text to speech",
+                                    "count": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Analytics",
+                    "count": 760,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Analysis Services",
+                                    "count": 20
+                                },
+                                {
+                                    "value": "Azure Chaos Studio",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure Data Explorer",
+                                    "count": 81
+                                },
+                                {
+                                    "value": "Azure Data Factory",
+                                    "count": 86
+                                },
+                                {
+                                    "value": "Azure Data Lake Storage",
+                                    "count": 71
+                                },
+                                {
+                                    "value": "Azure Data Share",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "Azure Databricks",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Azure HDInsight on Azure Kubernetes Service (AKS)",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure Stream Analytics",
+                                    "count": 131
+                                },
+                                {
+                                    "value": "Azure Synapse Analytics",
+                                    "count": 60
+                                },
+                                {
+                                    "value": "Data Catalog",
+                                    "count": 6
+                                },
+                                {
+                                    "value": "Data Lake Analytics",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Event Hubs",
+                                    "count": 55
+                                },
+                                {
+                                    "value": "HDInsight",
+                                    "count": 111
+                                },
+                                {
+                                    "value": "Microsoft Fabric",
+                                    "count": 13
+                                },
+                                {
+                                    "value": "Microsoft Purview",
+                                    "count": 30
+                                },
+                                {
+                                    "value": "Power BI Embedded",
+                                    "count": 98
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Compute",
+                    "count": 1738,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "App Service",
+                                    "count": 368
+                                },
+                                {
+                                    "value": "Azure Compute Fleet",
+                                    "count": 3
+                                },
+                                {
+                                    "value": "Azure Container Instances",
+                                    "count": 21
+                                },
+                                {
+                                    "value": "Azure CycleCloud",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "Azure Dedicated Host",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure Functions",
+                                    "count": 206
+                                },
+                                {
+                                    "value": "Azure Kubernetes Service (AKS)",
+                                    "count": 468
+                                },
+                                {
+                                    "value": "Azure Modeling and Simulation Workbench",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure Quantum",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure Service Fabric",
+                                    "count": 70
+                                },
+                                {
+                                    "value": "Azure Spot Virtual Machines",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Spring Apps",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Azure Virtual Desktop",
+                                    "count": 35
+                                },
+                                {
+                                    "value": "Azure VM Image Builder",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure VMware Solution",
+                                    "count": 45
+                                },
+                                {
+                                    "value": "Batch",
+                                    "count": 50
+                                },
+                                {
+                                    "value": "Cloud Services",
+                                    "count": 46
+                                },
+                                {
+                                    "value": "Linux Virtual Machines",
+                                    "count": 28
+                                },
+                                {
+                                    "value": "SQL Server on Azure Virtual Machines",
+                                    "count": 34
+                                },
+                                {
+                                    "value": "Static Web Apps",
+                                    "count": 39
+                                },
+                                {
+                                    "value": "Virtual Machine Scale Sets",
+                                    "count": 92
+                                },
+                                {
+                                    "value": "Virtual Machines",
+                                    "count": 405
+                                },
+                                {
+                                    "value": "Windows Virtual Machines",
+                                    "count": 14
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Containers",
+                    "count": 934,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "App Configuration",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Azure Container Apps",
+                                    "count": 82
+                                },
+                                {
+                                    "value": "Azure Container Instances",
+                                    "count": 21
+                                },
+                                {
+                                    "value": "Azure Container Registry",
+                                    "count": 49
+                                },
+                                {
+                                    "value": "Azure Container Storage",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Functions",
+                                    "count": 206
+                                },
+                                {
+                                    "value": "Azure Kubernetes Fleet Manager",
+                                    "count": 6
+                                },
+                                {
+                                    "value": "Azure Kubernetes Service (AKS)",
+                                    "count": 468
+                                },
+                                {
+                                    "value": "Azure Red Hat OpenShift",
+                                    "count": 35
+                                },
+                                {
+                                    "value": "Azure Service Fabric",
+                                    "count": 70
+                                },
+                                {
+                                    "value": "Web App for Containers",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Web Apps for Containers",
+                                    "count": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Databases",
+                    "count": 1433,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Cache for Redis",
+                                    "count": 74
+                                },
+                                {
+                                    "value": "Azure confidential ledger",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Cosmos DB",
+                                    "count": 326
+                                },
+                                {
+                                    "value": "Azure Data Factory",
+                                    "count": 86
+                                },
+                                {
+                                    "value": "Azure Database for MariaDB",
+                                    "count": 39
+                                },
+                                {
+                                    "value": "Azure Database for MySQL",
+                                    "count": 138
+                                },
+                                {
+                                    "value": "Azure Database for PostgreSQL",
+                                    "count": 266
+                                },
+                                {
+                                    "value": "Azure Database Migration Service",
+                                    "count": 45
+                                },
+                                {
+                                    "value": "Azure Managed Instance for Apache Cassandra",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure SQL",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure SQL Database",
+                                    "count": 448
+                                },
+                                {
+                                    "value": "Azure SQL Edge",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Azure SQL Managed Instance",
+                                    "count": 45
+                                },
+                                {
+                                    "value": "SQL Server on Azure Virtual Machines",
+                                    "count": 34
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Developer tools",
+                    "count": 264,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "App Configuration",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Azure Deployment Environments",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure DevOps",
+                                    "count": 69
+                                },
+                                {
+                                    "value": "Azure DevTest Labs",
+                                    "count": 84
+                                },
+                                {
+                                    "value": "Azure Load Testing",
+                                    "count": 37
+                                },
+                                {
+                                    "value": "Azure Pipelines",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Microsoft Dev Box",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Microsoft Playwright Testing",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "SDKs",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Visual Studio",
+                                    "count": 15
+                                },
+                                {
+                                    "value": "Visual Studio Code",
+                                    "count": 16
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "DevOps",
+                    "count": 697,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Boards",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure Deployment Environments",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure DevOps",
+                                    "count": 69
+                                },
+                                {
+                                    "value": "Azure DevTest Labs",
+                                    "count": 84
+                                },
+                                {
+                                    "value": "Azure Load Testing",
+                                    "count": 37
+                                },
+                                {
+                                    "value": "Azure Managed Grafana",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Monitor",
+                                    "count": 493
+                                },
+                                {
+                                    "value": "Azure Pipelines",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Repos",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "DevOps tool integrations",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "GitHub Advanced Security for Azure DevOps",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "GitHub Enterprise",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Microsoft Dev Box",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Microsoft Playwright Testing",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Hybrid \u002B multicloud",
+                    "count": 1141,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Arc",
+                                    "count": 46
+                                },
+                                {
+                                    "value": "Azure Database for PostgreSQL",
+                                    "count": 266
+                                },
+                                {
+                                    "value": "Azure DevOps",
+                                    "count": 69
+                                },
+                                {
+                                    "value": "Azure ExpressRoute",
+                                    "count": 72
+                                },
+                                {
+                                    "value": "Azure IoT Edge",
+                                    "count": 58
+                                },
+                                {
+                                    "value": "Azure SQL Database",
+                                    "count": 448
+                                },
+                                {
+                                    "value": "Azure SQL Edge",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Azure Stack",
+                                    "count": 30
+                                },
+                                {
+                                    "value": "Azure Stack Edge",
+                                    "count": 9
+                                },
+                                {
+                                    "value": "Azure Stack HCI",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Azure Stack Hub",
+                                    "count": 20
+                                },
+                                {
+                                    "value": "Microsoft Defender for Cloud",
+                                    "count": 118
+                                },
+                                {
+                                    "value": "Microsoft Sentinel",
+                                    "count": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Identity",
+                    "count": 143,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Active Directory B2C",
+                                    "count": 19
+                                },
+                                {
+                                    "value": "Microsoft Entra Domain Services",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Microsoft Entra ID (formerly Azure AD)",
+                                    "count": 110
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Integration",
+                    "count": 338,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "API Management",
+                                    "count": 178
+                                },
+                                {
+                                    "value": "Azure Health Data Services",
+                                    "count": 6
+                                },
+                                {
+                                    "value": "Azure Web PubSub",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Event Grid",
+                                    "count": 56
+                                },
+                                {
+                                    "value": "Logic Apps",
+                                    "count": 61
+                                },
+                                {
+                                    "value": "Service Bus",
+                                    "count": 42
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Internet of Things",
+                    "count": 1389,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "API Management",
+                                    "count": 178
+                                },
+                                {
+                                    "value": "Azure Cosmos DB",
+                                    "count": 326
+                                },
+                                {
+                                    "value": "Azure Digital Twins",
+                                    "count": 23
+                                },
+                                {
+                                    "value": "Azure Functions",
+                                    "count": 206
+                                },
+                                {
+                                    "value": "Azure IoT Central",
+                                    "count": 70
+                                },
+                                {
+                                    "value": "Azure IoT Edge",
+                                    "count": 58
+                                },
+                                {
+                                    "value": "Azure IoT Hub",
+                                    "count": 73
+                                },
+                                {
+                                    "value": "Azure Machine Learning",
+                                    "count": 114
+                                },
+                                {
+                                    "value": "Azure Maps",
+                                    "count": 33
+                                },
+                                {
+                                    "value": "Azure RTOS",
+                                    "count": 6
+                                },
+                                {
+                                    "value": "Azure Sphere",
+                                    "count": 91
+                                },
+                                {
+                                    "value": "Azure SQL Edge",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Azure Stream Analytics",
+                                    "count": 131
+                                },
+                                {
+                                    "value": "Azure Time Series Insights",
+                                    "count": 12
+                                },
+                                {
+                                    "value": "Event Grid",
+                                    "count": 56
+                                },
+                                {
+                                    "value": "Logic Apps",
+                                    "count": 61
+                                },
+                                {
+                                    "value": "Notification Hubs",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Windows 10 IoT Core Services",
+                                    "count": 6
+                                },
+                                {
+                                    "value": "Windows for IoT",
+                                    "count": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Management and governance",
+                    "count": 1214,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Automation",
+                                    "count": 105
+                                },
+                                {
+                                    "value": "Azure Advisor",
+                                    "count": 29
+                                },
+                                {
+                                    "value": "Azure Automanage",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Backup",
+                                    "count": 175
+                                },
+                                {
+                                    "value": "Azure Blueprints",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "Azure Chaos Studio",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure Lighthouse",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Managed Applications",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure Managed Grafana",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Migrate",
+                                    "count": 32
+                                },
+                                {
+                                    "value": "Azure mobile app",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Azure Monitor",
+                                    "count": 493
+                                },
+                                {
+                                    "value": "Azure Policy",
+                                    "count": 30
+                                },
+                                {
+                                    "value": "Azure Resource Manager",
+                                    "count": 20
+                                },
+                                {
+                                    "value": "Azure Resource Manager templates",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure Resource Mover",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure Service Health",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Azure Site Recovery",
+                                    "count": 126
+                                },
+                                {
+                                    "value": "Cloud Shell",
+                                    "count": 15
+                                },
+                                {
+                                    "value": "Microsoft Azure portal",
+                                    "count": 76
+                                },
+                                {
+                                    "value": "Microsoft Copilot for Azure",
+                                    "count": 4
+                                },
+                                {
+                                    "value": "Microsoft Cost Management",
+                                    "count": 56
+                                },
+                                {
+                                    "value": "Microsoft Purview",
+                                    "count": 30
+                                },
+                                {
+                                    "value": "Network Watcher",
+                                    "count": 42
+                                },
+                                {
+                                    "value": "Traffic Manager",
+                                    "count": 23
+                                },
+                                {
+                                    "value": "Update management center",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Media",
+                    "count": 82,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Media Player",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Content Delivery Network",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Live and On-Demand Streaming",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Media Services",
+                                    "count": 49
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Migration",
+                    "count": 266,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Data Box",
+                                    "count": 11
+                                },
+                                {
+                                    "value": "Azure Database Migration Service",
+                                    "count": 45
+                                },
+                                {
+                                    "value": "Azure Migrate",
+                                    "count": 32
+                                },
+                                {
+                                    "value": "Azure Site Recovery",
+                                    "count": 126
+                                },
+                                {
+                                    "value": "Microsoft Cost Management",
+                                    "count": 56
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Mixed reality",
+                    "count": 24,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Digital Twins",
+                                    "count": 23
+                                },
+                                {
+                                    "value": "Remote Rendering",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Mobile",
+                    "count": 749,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "API Management",
+                                    "count": 178
+                                },
+                                {
+                                    "value": "App Center",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "App Configuration",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "App Service",
+                                    "count": 368
+                                },
+                                {
+                                    "value": "Azure AI Search",
+                                    "count": 38
+                                },
+                                {
+                                    "value": "Azure AI Services",
+                                    "count": 107
+                                },
+                                {
+                                    "value": "Azure Communication Services",
+                                    "count": 19
+                                },
+                                {
+                                    "value": "Azure Maps",
+                                    "count": 33
+                                },
+                                {
+                                    "value": "Notification Hubs",
+                                    "count": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Networking",
+                    "count": 555,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Application Gateway",
+                                    "count": 64
+                                },
+                                {
+                                    "value": "Azure Bastion",
+                                    "count": 19
+                                },
+                                {
+                                    "value": "Azure DDoS Protection",
+                                    "count": 3
+                                },
+                                {
+                                    "value": "Azure DNS",
+                                    "count": 25
+                                },
+                                {
+                                    "value": "Azure ExpressRoute",
+                                    "count": 72
+                                },
+                                {
+                                    "value": "Azure Firewall",
+                                    "count": 38
+                                },
+                                {
+                                    "value": "Azure Firewall Manager",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Front Door",
+                                    "count": 46
+                                },
+                                {
+                                    "value": "Azure Private Link",
+                                    "count": 30
+                                },
+                                {
+                                    "value": "Azure Route Server",
+                                    "count": 3
+                                },
+                                {
+                                    "value": "Azure Virtual Network Manager",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Content Delivery Network",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Load Balancer",
+                                    "count": 49
+                                },
+                                {
+                                    "value": "Network Watcher",
+                                    "count": 42
+                                },
+                                {
+                                    "value": "Traffic Manager",
+                                    "count": 23
+                                },
+                                {
+                                    "value": "Virtual Network",
+                                    "count": 146
+                                },
+                                {
+                                    "value": "Virtual WAN",
+                                    "count": 11
+                                },
+                                {
+                                    "value": "VPN Gateway",
+                                    "count": 31
+                                },
+                                {
+                                    "value": "Web Application Firewall",
+                                    "count": 34
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Security",
+                    "count": 388,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "App Configuration",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Application Gateway",
+                                    "count": 64
+                                },
+                                {
+                                    "value": "Azure Bastion",
+                                    "count": 19
+                                },
+                                {
+                                    "value": "Azure confidential ledger",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure DDoS Protection",
+                                    "count": 3
+                                },
+                                {
+                                    "value": "Azure Dedicated HSM",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Azure Firewall",
+                                    "count": 38
+                                },
+                                {
+                                    "value": "Azure Firewall Manager",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Front Door",
+                                    "count": 46
+                                },
+                                {
+                                    "value": "Key Vault",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Microsoft Copilot for Security",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Microsoft Defender for Cloud",
+                                    "count": 118
+                                },
+                                {
+                                    "value": "Microsoft Entra Domain Services",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "Microsoft Sentinel",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "VPN Gateway",
+                                    "count": 31
+                                },
+                                {
+                                    "value": "Web Application Firewall",
+                                    "count": 34
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Storage",
+                    "count": 646,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Archive Storage",
+                                    "count": 18
+                                },
+                                {
+                                    "value": "Avere vFXT for Azure",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Backup",
+                                    "count": 175
+                                },
+                                {
+                                    "value": "Azure Blob Storage",
+                                    "count": 98
+                                },
+                                {
+                                    "value": "Azure confidential ledger",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Azure Data Box",
+                                    "count": 11
+                                },
+                                {
+                                    "value": "Azure Data Lake Storage",
+                                    "count": 71
+                                },
+                                {
+                                    "value": "Azure Data Share",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "Azure Disk Storage",
+                                    "count": 76
+                                },
+                                {
+                                    "value": "Azure Elastic SAN",
+                                    "count": 8
+                                },
+                                {
+                                    "value": "Azure Files",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Azure HPC Cache",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure Managed Lustre",
+                                    "count": 2
+                                },
+                                {
+                                    "value": "Azure NetApp Files",
+                                    "count": 80
+                                },
+                                {
+                                    "value": "Azure Storage Actions",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Queue Storage",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Storage Accounts",
+                                    "count": 186
+                                },
+                                {
+                                    "value": "Storage Explorer",
+                                    "count": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Virtual desktop infrastructure",
+                    "count": 57,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "Azure Lab Services",
+                                    "count": 18
+                                },
+                                {
+                                    "value": "Azure Virtual Desktop",
+                                    "count": 35
+                                },
+                                {
+                                    "value": "Microsoft Dev Box",
+                                    "count": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "value": "Web",
+                    "count": 720,
+                    "subFacets": [
+                        {
+                            "name": "Product",
+                            "values": [
+                                {
+                                    "value": "API Management",
+                                    "count": 178
+                                },
+                                {
+                                    "value": "App Configuration",
+                                    "count": 16
+                                },
+                                {
+                                    "value": "App Service",
+                                    "count": 368
+                                },
+                                {
+                                    "value": "Azure AI Search",
+                                    "count": 38
+                                },
+                                {
+                                    "value": "Azure Communication Services",
+                                    "count": 19
+                                },
+                                {
+                                    "value": "Azure Maps",
+                                    "count": 33
+                                },
+                                {
+                                    "value": "Azure SignalR Service",
+                                    "count": 10
+                                },
+                                {
+                                    "value": "Azure Web PubSub",
+                                    "count": 7
+                                },
+                                {
+                                    "value": "Content Delivery Network",
+                                    "count": 36
+                                },
+                                {
+                                    "value": "Microsoft Playwright Testing",
+                                    "count": 1
+                                },
+                                {
+                                    "value": "Notification Hubs",
+                                    "count": 5
+                                },
+                                {
+                                    "value": "Static Web Apps",
+                                    "count": 39
+                                },
+                                {
+                                    "value": "Web App for Containers",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tags",
+            "values": [
+                {
+                    "value": "Compliance",
+                    "count": 213
+                },
+                {
+                    "value": "Features",
+                    "count": 5714
+                },
+                {
+                    "value": "Gallery",
+                    "count": 22
+                },
+                {
+                    "value": "Management",
+                    "count": 675
+                },
+                {
+                    "value": "Microsoft Build",
+                    "count": 199
+                },
+                {
+                    "value": "Microsoft Connect",
+                    "count": 30
+                },
+                {
+                    "value": "Microsoft Ignite",
+                    "count": 339
+                },
+                {
+                    "value": "Microsoft Inspire",
+                    "count": 27
+                },
+                {
+                    "value": "MicrosoftBuild",
+                    "count": 2
+                },
+                {
+                    "value": "Open Source",
+                    "count": 354
+                },
+                {
+                    "value": "Operating System",
+                    "count": 167
+                },
+                {
+                    "value": "Pricing \u0026 Offerings",
+                    "count": 488
+                },
+                {
+                    "value": "Regions \u0026 Datacenters",
+                    "count": 598
+                },
+                {
+                    "value": "Retirements",
+                    "count": 481
+                },
+                {
+                    "value": "SDK and Tools",
+                    "count": 399
+                },
+                {
+                    "value": "Security",
+                    "count": 611
+                },
+                {
+                    "value": "Services",
+                    "count": 1972
+                }
+            ]
+        },
+        {
+            "name": "Product",
+            "values": [
+                {
+                    "value": "AI Anomaly Detector",
+                    "count": 1
+                },
+                {
+                    "value": "API Management",
+                    "count": 178
+                },
+                {
+                    "value": "App Center",
+                    "count": 5
+                },
+                {
+                    "value": "App Configuration",
+                    "count": 16
+                },
+                {
+                    "value": "App Service",
+                    "count": 368
+                },
+                {
+                    "value": "Application Gateway",
+                    "count": 64
+                },
+                {
+                    "value": "Archive Storage",
+                    "count": 18
+                },
+                {
+                    "value": "Automation",
+                    "count": 105
+                },
+                {
+                    "value": "Avere vFXT for Azure",
+                    "count": 7
+                },
+                {
+                    "value": "Azure Active Directory B2C",
+                    "count": 19
+                },
+                {
+                    "value": "Azure Advisor",
+                    "count": 29
+                },
+                {
+                    "value": "Azure AI Bot Service",
+                    "count": 13
+                },
+                {
+                    "value": "Azure AI Content Safety",
+                    "count": 1
+                },
+                {
+                    "value": "Azure AI Custom Vision",
+                    "count": 11
+                },
+                {
+                    "value": "Azure AI Foundry",
+                    "count": 10
+                },
+                {
+                    "value": "Azure AI Language",
+                    "count": 15
+                },
+                {
+                    "value": "Azure AI Personalizer",
+                    "count": 1
+                },
+                {
+                    "value": "Azure AI Search",
+                    "count": 38
+                },
+                {
+                    "value": "Azure AI Services",
+                    "count": 107
+                },
+                {
+                    "value": "Azure AI Translator",
+                    "count": 12
+                },
+                {
+                    "value": "Azure AI Video Indexer",
+                    "count": 14
+                },
+                {
+                    "value": "Azure Analysis Services",
+                    "count": 20
+                },
+                {
+                    "value": "Azure Arc",
+                    "count": 46
+                },
+                {
+                    "value": "Azure Automanage",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Backup",
+                    "count": 175
+                },
+                {
+                    "value": "Azure Bastion",
+                    "count": 19
+                },
+                {
+                    "value": "Azure Blob Storage",
+                    "count": 98
+                },
+                {
+                    "value": "Azure Blueprints",
+                    "count": 8
+                },
+                {
+                    "value": "Azure Boards",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Cache for Redis",
+                    "count": 74
+                },
+                {
+                    "value": "Azure Chaos Studio",
+                    "count": 10
+                },
+                {
+                    "value": "Azure Communication Services",
+                    "count": 19
+                },
+                {
+                    "value": "Azure Compute Fleet",
+                    "count": 3
+                },
+                {
+                    "value": "Azure confidential ledger",
+                    "count": 7
+                },
+                {
+                    "value": "Azure Container Apps",
+                    "count": 82
+                },
+                {
+                    "value": "Azure Container Instances",
+                    "count": 21
+                },
+                {
+                    "value": "Azure Container Registry",
+                    "count": 49
+                },
+                {
+                    "value": "Azure Container Storage",
+                    "count": 7
+                },
+                {
+                    "value": "Azure Cosmos DB",
+                    "count": 326
+                },
+                {
+                    "value": "Azure CycleCloud",
+                    "count": 8
+                },
+                {
+                    "value": "Azure Data Box",
+                    "count": 11
+                },
+                {
+                    "value": "Azure Data Explorer",
+                    "count": 81
+                },
+                {
+                    "value": "Azure Data Factory",
+                    "count": 86
+                },
+                {
+                    "value": "Azure Data Lake Storage",
+                    "count": 71
+                },
+                {
+                    "value": "Azure Data Share",
+                    "count": 8
+                },
+                {
+                    "value": "Azure Database for MariaDB",
+                    "count": 39
+                },
+                {
+                    "value": "Azure Database for MySQL",
+                    "count": 138
+                },
+                {
+                    "value": "Azure Database for PostgreSQL",
+                    "count": 266
+                },
+                {
+                    "value": "Azure Database Migration Service",
+                    "count": 45
+                },
+                {
+                    "value": "Azure Databricks",
+                    "count": 36
+                },
+                {
+                    "value": "Azure DDoS Protection",
+                    "count": 3
+                },
+                {
+                    "value": "Azure Dedicated Host",
+                    "count": 10
+                },
+                {
+                    "value": "Azure Dedicated HSM",
+                    "count": 1
+                },
+                {
+                    "value": "Azure Deployment Environments",
+                    "count": 7
+                },
+                {
+                    "value": "Azure DevOps",
+                    "count": 69
+                },
+                {
+                    "value": "Azure DevTest Labs",
+                    "count": 84
+                },
+                {
+                    "value": "Azure Digital Twins",
+                    "count": 23
+                },
+                {
+                    "value": "Azure Disk Storage",
+                    "count": 76
+                },
+                {
+                    "value": "Azure DNS",
+                    "count": 25
+                },
+                {
+                    "value": "Azure Elastic SAN",
+                    "count": 8
+                },
+                {
+                    "value": "Azure ExpressRoute",
+                    "count": 72
+                },
+                {
+                    "value": "Azure Files",
+                    "count": 36
+                },
+                {
+                    "value": "Azure Firewall",
+                    "count": 38
+                },
+                {
+                    "value": "Azure Firewall Manager",
+                    "count": 7
+                },
+                {
+                    "value": "Azure Front Door",
+                    "count": 46
+                },
+                {
+                    "value": "Azure Functions",
+                    "count": 206
+                },
+                {
+                    "value": "Azure HDInsight on Azure Kubernetes Service (AKS)",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Health Data Services",
+                    "count": 6
+                },
+                {
+                    "value": "Azure HPC Cache",
+                    "count": 10
+                },
+                {
+                    "value": "Azure IoT Central",
+                    "count": 70
+                },
+                {
+                    "value": "Azure IoT Edge",
+                    "count": 58
+                },
+                {
+                    "value": "Azure IoT Hub",
+                    "count": 73
+                },
+                {
+                    "value": "Azure Kubernetes Fleet Manager",
+                    "count": 6
+                },
+                {
+                    "value": "Azure Kubernetes Service (AKS)",
+                    "count": 468
+                },
+                {
+                    "value": "Azure Lab Services",
+                    "count": 18
+                },
+                {
+                    "value": "Azure Lighthouse",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Load Testing",
+                    "count": 37
+                },
+                {
+                    "value": "Azure Machine Learning",
+                    "count": 114
+                },
+                {
+                    "value": "Azure Managed Applications",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Managed Grafana",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Managed Instance for Apache Cassandra",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Managed Lustre",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Maps",
+                    "count": 33
+                },
+                {
+                    "value": "Azure Media Player",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Migrate",
+                    "count": 32
+                },
+                {
+                    "value": "Azure mobile app",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Modeling and Simulation Workbench",
+                    "count": 1
+                },
+                {
+                    "value": "Azure Monitor",
+                    "count": 493
+                },
+                {
+                    "value": "Azure NetApp Files",
+                    "count": 80
+                },
+                {
+                    "value": "Azure Open Datasets",
+                    "count": 1
+                },
+                {
+                    "value": "Azure OpenAI Service",
+                    "count": 7
+                },
+                {
+                    "value": "Azure Pipelines",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Policy",
+                    "count": 30
+                },
+                {
+                    "value": "Azure Private Link",
+                    "count": 30
+                },
+                {
+                    "value": "Azure Quantum",
+                    "count": 1
+                },
+                {
+                    "value": "Azure Red Hat OpenShift",
+                    "count": 35
+                },
+                {
+                    "value": "Azure Repos",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Resource Manager",
+                    "count": 20
+                },
+                {
+                    "value": "Azure Resource Manager templates",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Resource Mover",
+                    "count": 2
+                },
+                {
+                    "value": "Azure Route Server",
+                    "count": 3
+                },
+                {
+                    "value": "Azure RTOS",
+                    "count": 6
+                },
+                {
+                    "value": "Azure Service Fabric",
+                    "count": 70
+                },
+                {
+                    "value": "Azure Service Health",
+                    "count": 4
+                },
+                {
+                    "value": "Azure SignalR Service",
+                    "count": 10
+                },
+                {
+                    "value": "Azure Site Recovery",
+                    "count": 126
+                },
+                {
+                    "value": "Azure Sphere",
+                    "count": 91
+                },
+                {
+                    "value": "Azure Spot Virtual Machines",
+                    "count": 5
+                },
+                {
+                    "value": "Azure Spring Apps",
+                    "count": 4
+                },
+                {
+                    "value": "Azure SQL",
+                    "count": 10
+                },
+                {
+                    "value": "Azure SQL Database",
+                    "count": 448
+                },
+                {
+                    "value": "Azure SQL Edge",
+                    "count": 4
+                },
+                {
+                    "value": "Azure SQL Managed Instance",
+                    "count": 45
+                },
+                {
+                    "value": "Azure Stack",
+                    "count": 30
+                },
+                {
+                    "value": "Azure Stack Edge",
+                    "count": 9
+                },
+                {
+                    "value": "Azure Stack HCI",
+                    "count": 16
+                },
+                {
+                    "value": "Azure Stack Hub",
+                    "count": 20
+                },
+                {
+                    "value": "Azure Storage Actions",
+                    "count": 1
+                },
+                {
+                    "value": "Azure Stream Analytics",
+                    "count": 131
+                },
+                {
+                    "value": "Azure Synapse Analytics",
+                    "count": 60
+                },
+                {
+                    "value": "Azure Time Series Insights",
+                    "count": 12
+                },
+                {
+                    "value": "Azure Virtual Desktop",
+                    "count": 35
+                },
+                {
+                    "value": "Azure Virtual Network Manager",
+                    "count": 16
+                },
+                {
+                    "value": "Azure VM Image Builder",
+                    "count": 2
+                },
+                {
+                    "value": "Azure VMware Solution",
+                    "count": 45
+                },
+                {
+                    "value": "Azure Web PubSub",
+                    "count": 7
+                },
+                {
+                    "value": "Batch",
+                    "count": 50
+                },
+                {
+                    "value": "Cloud Services",
+                    "count": 46
+                },
+                {
+                    "value": "Cloud Shell",
+                    "count": 15
+                },
+                {
+                    "value": "Content Delivery Network",
+                    "count": 36
+                },
+                {
+                    "value": "Data Catalog",
+                    "count": 6
+                },
+                {
+                    "value": "Data Lake Analytics",
+                    "count": 7
+                },
+                {
+                    "value": "Data Science Virtual Machines",
+                    "count": 2
+                },
+                {
+                    "value": "DevOps tool integrations",
+                    "count": 1
+                },
+                {
+                    "value": "Event Grid",
+                    "count": 56
+                },
+                {
+                    "value": "Event Hubs",
+                    "count": 55
+                },
+                {
+                    "value": "GitHub Advanced Security for Azure DevOps",
+                    "count": 1
+                },
+                {
+                    "value": "GitHub Enterprise",
+                    "count": 5
+                },
+                {
+                    "value": "HDInsight",
+                    "count": 111
+                },
+                {
+                    "value": "Health Bot",
+                    "count": 2
+                },
+                {
+                    "value": "Key Vault",
+                    "count": 36
+                },
+                {
+                    "value": "Language Understanding (LUIS)",
+                    "count": 2
+                },
+                {
+                    "value": "Linux Virtual Machines",
+                    "count": 28
+                },
+                {
+                    "value": "Live and On-Demand Streaming",
+                    "count": 2
+                },
+                {
+                    "value": "Load Balancer",
+                    "count": 49
+                },
+                {
+                    "value": "Logic Apps",
+                    "count": 61
+                },
+                {
+                    "value": "Media Services",
+                    "count": 49
+                },
+                {
+                    "value": "Microsoft Azure portal",
+                    "count": 76
+                },
+                {
+                    "value": "Microsoft Copilot for Azure",
+                    "count": 4
+                },
+                {
+                    "value": "Microsoft Copilot for Security",
+                    "count": 1
+                },
+                {
+                    "value": "Microsoft Cost Management",
+                    "count": 56
+                },
+                {
+                    "value": "Microsoft Defender for Cloud",
+                    "count": 118
+                },
+                {
+                    "value": "Microsoft Dev Box",
+                    "count": 5
+                },
+                {
+                    "value": "Microsoft Entra Domain Services",
+                    "count": 16
+                },
+                {
+                    "value": "Microsoft Entra ID (formerly Azure AD)",
+                    "count": 110
+                },
+                {
+                    "value": "Microsoft Fabric",
+                    "count": 13
+                },
+                {
+                    "value": "Microsoft Playwright Testing",
+                    "count": 1
+                },
+                {
+                    "value": "Microsoft Purview",
+                    "count": 30
+                },
+                {
+                    "value": "Microsoft Sentinel",
+                    "count": 8
+                },
+                {
+                    "value": "Network Watcher",
+                    "count": 42
+                },
+                {
+                    "value": "Notification Hubs",
+                    "count": 5
+                },
+                {
+                    "value": "Power BI Embedded",
+                    "count": 98
+                },
+                {
+                    "value": "QnA Maker",
+                    "count": 3
+                },
+                {
+                    "value": "Queue Storage",
+                    "count": 1
+                },
+                {
+                    "value": "Remote Rendering",
+                    "count": 1
+                },
+                {
+                    "value": "SDKs",
+                    "count": 16
+                },
+                {
+                    "value": "Service Bus",
+                    "count": 42
+                },
+                {
+                    "value": "Speaker recognition",
+                    "count": 1
+                },
+                {
+                    "value": "Speech to text",
+                    "count": 2
+                },
+                {
+                    "value": "Speech translation",
+                    "count": 1
+                },
+                {
+                    "value": "SQL Server on Azure Virtual Machines",
+                    "count": 34
+                },
+                {
+                    "value": "Static Web Apps",
+                    "count": 39
+                },
+                {
+                    "value": "Storage Accounts",
+                    "count": 186
+                },
+                {
+                    "value": "Storage Explorer",
+                    "count": 2
+                },
+                {
+                    "value": "Text to speech",
+                    "count": 4
+                },
+                {
+                    "value": "Traffic Manager",
+                    "count": 23
+                },
+                {
+                    "value": "Update management center",
+                    "count": 1
+                },
+                {
+                    "value": "Virtual Machine Scale Sets",
+                    "count": 92
+                },
+                {
+                    "value": "Virtual Machines",
+                    "count": 405
+                },
+                {
+                    "value": "Virtual Network",
+                    "count": 146
+                },
+                {
+                    "value": "Virtual WAN",
+                    "count": 11
+                },
+                {
+                    "value": "Visual Studio",
+                    "count": 15
+                },
+                {
+                    "value": "Visual Studio Code",
+                    "count": 16
+                },
+                {
+                    "value": "VPN Gateway",
+                    "count": 31
+                },
+                {
+                    "value": "Web App for Containers",
+                    "count": 1
+                },
+                {
+                    "value": "Web Application Firewall",
+                    "count": 34
+                },
+                {
+                    "value": "Web Apps for Containers",
+                    "count": 2
+                },
+                {
+                    "value": "Windows 10 IoT Core Services",
+                    "count": 6
+                },
+                {
+                    "value": "Windows for IoT",
+                    "count": 7
+                },
+                {
+                    "value": "Windows Virtual Machines",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "name": "Status",
+            "values": [
+                {
+                    "value": "In development",
+                    "count": 123
+                },
+                {
+                    "value": "In preview",
+                    "count": 2630
+                },
+                {
+                    "value": "Launched",
+                    "count": 4232
+                }
+            ]
+        }
+    ]
+}
