@@ -37,11 +37,15 @@ def get_updates_rss(startDate, endDate):
 
                 title = a.find('title').text
                 link = a.find('link').text
-            
+                # Extract categories as an array
+                categories = [category.text for category in a.findAll('category')]
+
                 # basic parse to flag announcement types
-                if "preview" in title.lower():
+                if "Retirement" in categories:
+                    announcement_type = "retirement"
+                elif "In preview" in categories:
                      announcement_type = "preview"
-                else:
+                elif "Launched" in categories:
                     announcement_type = "GA"
 
                 # create an "article" object with the data
@@ -170,9 +174,11 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
                 preview_items = [item for item in updatelist if item["antype"] == "preview"]
                 ga_items = [item for item in updatelist if item["antype"] == "GA"]
+                retire_items = [item for item in updatelist if item["antype"] == "retirement"]
 
                 generate_presentation_section(prs, bullet_slide_layout, preview_items, "Preview")
                 generate_presentation_section(prs, bullet_slide_layout, ga_items, "GA")
+                generate_presentation_section(prs, bullet_slide_layout, retire_items, "Retirements")
             
                 filename = os.environ["LocalTempFilePath"] + "AzureUpdate-" + datetime.strftime(datetime.now(),"%Y-%m-%d-%H-%M-%S") + ".pptx"
 

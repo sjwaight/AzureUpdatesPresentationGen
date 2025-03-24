@@ -1,14 +1,20 @@
-# "What's New On Azure" PPTX generator
+# "What's New On Azure" PowerPoint generator
 
 This repository provides a simple Python-based Azure Function that can be used to generate a PowerPoint file that contains items published on the Azure Updates website (https://azure.microsoft.com/updates/) within a specified date range.
 
 The implementation relies on the RSS feed for the website as its data source and the resulting PowerPoint is split into 'Preview' and 'GA' sections.
 
-# Running locally
+## Updates for 2025
+
+- Updated to Python 3.11 (Azure Functions support until 2027).
+- Support for new Azure Updates RSS format (see [sample](./sample.xml))
+- Added section for Retirements.
+
+## Running locally
 
 You can run this solution locally if you wish, though you will still require access to an Azure storage account or emulator.
 
-The solution was built using Python 3.8 (on Ubuntu via WSL) and Visual Studio Code with it's excellent Python extensions. It hasn't been tested on a Windows platform, but should work with a path change for the `LocalTempFilePath` configuration item.
+The solution was built using Python 3.11 (on Ubuntu via WSL) and Visual Studio Code with it's excellent Python extensions. It hasn't been tested on a Windows platform, but should work with a path change for the `LocalTempFilePath` configuration item.
 
 Define the following `local.settings.json` file in order to get the Functions running.
 
@@ -18,7 +24,7 @@ Define the following `local.settings.json` file in order to get the Functions ru
   "Values": {
     "AzureWebJobsStorage": "FUNCTION_STORAGE_ACCOUNT",
     "LocalTempFilePath": "/tmp/",
-    "UpdatesURL": "https://azure.microsoft.com/updates/feed/",
+    "UpdatesURL": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
     "PowerPointAccountConnection": "DefaultEndpointsProtocol=https;AccountName=YOUR_ACCOUNT;AccountKey=YOUR_KEY",
     "PowerPointContainer": "updatefiles",
     "PowerPointStorageAccount": "YOUR_ACCOUNT",
@@ -28,7 +34,7 @@ Define the following `local.settings.json` file in order to get the Functions ru
 }
 ```
 
-# Deploy to Azure
+## Deploy to Azure
 
 You can deploy the Azure resources by running the bicep file in the infra-deploy folder. You need to supply a unique name for the Azure Function and also the location you wish to deploy the App Insights instance to.
 
@@ -36,7 +42,7 @@ Once you have this setup you can then extract the publishing profile for the Azu
 
 Add all the text from the downloaded profile to a Secret in your GitHub repository and ensure that the GitHub Action references this Secret correctly when publishing to Azure.
 
-# Invoking the Function
+## Invoking the Function
 
 Use a web browser and open the URL as shown below. 
 
@@ -49,6 +55,6 @@ The Function key isn't required for local debugging. For deployed Functions you 
 
 There is also a Timer Function which runs every Sunday at 11pm to purge any generated PowerPoint files from storage.
 
-# Known Limitations
+## Known Limitations
 
-The source RSS feed only holds ~60 days of announcements (or a fixed number of annoucements), so if you try and query before then you will get no results.
+The source RSS feed only holds ~60 days of announcements (or a fixed number of announcements), so if you try and query before then you will get no results.
