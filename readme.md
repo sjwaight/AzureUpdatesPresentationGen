@@ -7,7 +7,7 @@ The implementation relies on the RSS feed for the website as its data source and
 ## Updates for 2025
 
 > [!WARNING]  
-> The new Azure Updates site has a few issues - the RSS feed button only loads the first page of the websties (mayb 5 items) and the OData API that's used by the website isn't really designed for external consumption. The code has been updated so it works, but the OData API responds with different data that is of almost not value...
+> The new Azure Updates site has a few issues - the RSS feed button only loads the first page of the websties (maybe 5 items) and the OData API that's used by the website isn't really designed for external consumption. The code has been updated so it works, but the OData API responds with different data that is of almost not value...
 
 - Updated to Python 3.11 (Azure Functions support until 2027).
 - Support for new Azure Updates format.
