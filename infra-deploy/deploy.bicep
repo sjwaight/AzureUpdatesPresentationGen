@@ -99,7 +99,7 @@ resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
         }
         {
           name: 'UpdatesURL'
-          value: 'https://azure.microsoft.com/updates/feed/'
+          value: 'https://www.microsoft.com/releasecommunications/api/v2/azure/rss'
         }
         {
           name: 'PowerPointContainer'
@@ -120,7 +120,7 @@ resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
       ]
       ftpsState: 'FtpsOnly'
       minTlsVersion: '1.2'
-      linuxFxVersion: 'python|3.8'
+      linuxFxVersion: 'python|3.11'
     }
     httpsOnly: true
   }
