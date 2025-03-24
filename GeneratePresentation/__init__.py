@@ -9,22 +9,22 @@ from datetime import datetime, timedelta, timezone
 from pptx import Presentation
 from pptx.util import Pt
 import requests # pulling data
-from bs4 import BeautifulSoup # xml parsing
 
-# RSS scraping function
-# Based mostly on: https://github.com/mattdood/web_scraping_example/blob/master/scraping.py
 def get_updates_rss(startDate, endDate):
     article_list = []
 
     try:
+       
+        # Pretend to be a browser so we can get the data
+        headersStrings = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+        }
         # execute my request, parse the data using XML
-        # parse using BS4
-        r = requests.get(os.environ["UpdatesURL"])
-        # soup = BeautifulSoup(r.content, features='xml')
+        r = requests.get(os.environ["UpdatesURL"], headers=headersStrings)
         updatesData = r.json()
 
+        odata_context = updatesData.get("@odata.context", "No context found")
         # select only the "items" I want from the data
-        #updates = soup.findAll('item')
         updates = updatesData.get("value", [])
 
         # for each "item" I want, parse it into a list
@@ -32,7 +32,7 @@ def get_updates_rss(startDate, endDate):
 
             # Get publication date
             published = a.get("modified")
-            pubDate = datetime.strptime(published, "%a, %d %b %Y %H:%M:%S Z")
+            pubDate = datetime.fromisoformat(published.replace("Z", ""))
 
             # only include items falling within our requested date range
             if (pubDate >= startDate and pubDate <= endDate):
