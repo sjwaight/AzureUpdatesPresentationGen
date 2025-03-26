@@ -46,7 +46,7 @@ Add all the text from the downloaded profile to a Secret in your GitHub reposito
 
 Use a web browser and open the URL as shown below. 
 
-https://YOUR-FUNC-APP.azurewebsites.net/api/GeneratePresentation?code=YOUR-FUNC-KEY&start=2021-06-20&end=2021-06-30
+<https://YOUR-FUNC-APP.azurewebsites.net/api/GeneratePresentation?code=YOUR-FUNC-KEY&start=2021-06-20&end=2021-06-30>
 
 'start' parameter is required and should be in YYYY-MM-DD format. This is the oldest date to pull records from.
 'end' parameter is optional, but if supplied should also be in YYYY-MM-DD format. This is the most recent date you want to pull records from.
@@ -57,4 +57,4 @@ There is also a Timer Function which runs every Sunday at 11pm to purge any gene
 
 ## Known Limitations
 
-The source RSS feed only holds ~60 days of announcements (or a fixed number of announcements), so if you try and query before then you will get no results.
+The source RSS feed only holds the most recent 200 announcements, so if you try and query before then you will get no results.
