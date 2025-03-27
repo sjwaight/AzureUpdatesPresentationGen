@@ -5,6 +5,6 @@
 azure-functions
 azure-storage-blob
 python-pptx
-# beautifulsoup4
+beautifulsoup4
 requests
 aiohttp

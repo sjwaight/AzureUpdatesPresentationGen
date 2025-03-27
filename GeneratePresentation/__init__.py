@@ -19,54 +19,54 @@ def get_updates_rss(startDate, endDate):
     try:
         # execute my request, parse the data using XML
         # parse using BS4
-        r = requests.get(os.environ["UpdatesURL"])
-        # soup = BeautifulSoup(r.content, features='xml')
-        updatesData = r.json()
+        r = requests.get(os.environ["UpdatesURL"], headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0'})
+        soup = BeautifulSoup(r.content, features='xml')
 
         # select only the "items" I want from the data
-        #updates = soup.findAll('item')
-        updates = updatesData.get("value", [])
+        updates = soup.findAll('item')
 
         # for each "item" I want, parse it into a list
         for a in updates:
 
             # Get publication date
-            published = a.get("modified")
-            pubDate = datetime.strptime(published, "%a, %d %b %Y %H:%M:%S Z")
+            published = a.find('pubDate').text
+            pubDate = datetime.strptime(a.find('pubDate').text, "%a, %d %b %Y %H:%M:%S Z")
+            announcement_type = "unknown"
 
             # only include items falling within our requested date range
             if (pubDate >= startDate and pubDate <= endDate):
 
-                title = a.get('title')
-                link = 'https://azure.microsoft.com/en-us/updates/?id=' + a.get('id') 
+                title = a.find('title').text
+                link = a.find('link').text
                 # Extract categories as an array
+                categories = [category.text for category in a.findAll('category')]
 
+                # basic parse to flag announcement types
+                if "Retirements" in categories:
+                    announcement_type = "retirement"
+                elif "In preview" in categories:
+                     announcement_type = "preview"
+                elif "Launched" in categories:
+                    announcement_type = "GA"
 
-                category = a["availabilities"][0]["ring"]
+                # only add announcement types we have explicitly flagged
+                if(announcement_type != "unknown"):
 
-                # Map categories to announcement types
-                category_to_announcement_type = {
-                    "Retirement": "retirement",
-                    "Preview": "preview",
-                    "General Availability": "GA"
-                }
+                    # create an "article" object with the data
+                    # from each "item"
+                    article = {
+                        'title': title,
+                        'link': link,
+                        'published': published,
+                        'antype': announcement_type
+                        }
 
-                # create an "article" object with the data
-                # from each "item"
-                article = {
-                    'title': title,
-                    'link': link,
-                    'published': published,
-                    'antype': category_to_announcement_type.get(category, "unknown")
-                    }
-
-                # append my "article_list" with each "article" object
-                article_list.append(article)
+                    # append my "article_list" with each "article" object
+                    article_list.append(article)
         
-        # after the loop, dump my saved objects into a .txt file
         return article_list
     except Exception as e:
-        logging.exception("Couldn't scrape the Azure Updates OData feed")
+        logging.exception("Couldn't scrape the Azure Updates RSS feed: " + str(e))
 
 ###
 # Generate a section of the final PowerPoint

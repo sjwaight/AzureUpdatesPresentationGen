@@ -7,8 +7,8 @@ The implementation relies on the RSS feed for the website as its data source and
 ## Updates for 2025
 
 - Updated to Python 3.11 (Azure Functions support until 2027).
-- Support for new Azure Updates RSS format (see [sample](./sample.xml))
-- Added section for Retirements.
+- Support for new Azure Updates RSS format (see [sample](./sample.xml)) - also requires setting of UA header.
+- Added section to output for Retirements.
 
 ## Running locally
 
@@ -57,4 +57,4 @@ There is also a Timer Function which runs every Sunday at 11pm to purge any gene
 
 ## Known Limitations
 
-The source RSS feed only holds the most recent 200 announcements, so if you try and query before then you will get no results.
+The source RSS feed only holds the most recent 200 announcements, so if you try and query using a date outside that range then you will get no results.
