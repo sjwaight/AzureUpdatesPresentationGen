@@ -8,3 +8,4 @@ python-pptx
 beautifulsoup4
 requests
 aiohttp
+setuptools-rust
