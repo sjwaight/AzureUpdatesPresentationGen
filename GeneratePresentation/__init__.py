@@ -160,7 +160,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             # end date is optional, so if not provided use today
             endParam = req.params.get('end')
             if not endParam:
-                endParam = datetime.now("%Y-%m-%d")
+                endParam = datetime.now().strftime("%Y-%m-%d")
 
             # add 1 day to end date so we include all of the day
             ending = datetime.strptime(endParam, "%Y-%m-%d")
@@ -205,4 +205,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             mimetype="text/html",
             body=message,
             status_code=http_status
+
     )
